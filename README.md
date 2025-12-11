@@ -1,39 +1,21 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# face_guidance
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter package for real-time face guidance, frame alignment, and automatic face capture using Google ML Kit. Perfect for KYC, attendance, and identity verification apps.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Real-time face detection
+- Guidance to align face in frame
+- Automatic photo capture when face is stable
+- Configurable frame size, timeout, and colors
+- Supports multiple languages
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add to your `pubspec.yaml`:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  face_guidance:
+    git:
+      url: https://github.com/fanes-setiawan/face-guidance-package.git
