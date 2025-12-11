@@ -12,10 +12,29 @@ Flutter package for real-time face guidance, frame alignment, and automatic face
 
 ## Installation
 
-Add to your `pubspec.yaml`:
+Add to your `android/app/src/main/AndroidManifest.xml`:
 
 ```yaml
-dependencies:
-  face_guidance:
-    git:
-      url: https://github.com/fanes-setiawan/face-guidance-package.git
+<uses-permission android:name="android.permission.CAMERA" />
+
+```
+Usage 
+```yaml
+import 'package:face_guidance/face_guidance.dart';
+
+FaceGuidanceView(
+  config: CaptureConfig(
+    timeoutSeconds: 20,
+    language: "id",
+  ),
+  onSuccess: (file) {
+    # handle captured image
+  },
+  onTimeout: () {
+    # handle timeout
+  },
+  onError: (err) {
+    # handle error
+  },
+)
+
