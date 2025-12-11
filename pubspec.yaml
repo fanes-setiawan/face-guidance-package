@@ -1,7 +1,9 @@
 name: face_guidance
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/fanes-setiawan/face-guidance-package
+repository: https://github.com/fanes-setiawan/face-guidance-package
+
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
