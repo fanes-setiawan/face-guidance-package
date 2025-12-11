@@ -1,5 +1,5 @@
 name: face_guidance
-description: "A new Flutter package project."
+description: "A Flutter package for face guidance and automatic face capture using Google ML Kit. Perfect for KYC, attendance, and identity verification apps."
 version: 0.0.1
 homepage: https://github.com/fanes-setiawan/face-guidance-package
 repository: https://github.com/fanes-setiawan/face-guidance-package
